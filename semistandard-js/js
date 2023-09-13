@@ -1,0 +1,18 @@
+#!/bin/bash
+# if the first argument is f, then run semistandard --fix
+if [ "$1" = "f" ]; then
+  # Fix all JavaScript files in the current directory
+  chmod +x *.js
+  semistandard --fix *.js
+  exit 0
+elif [ $# -eq 0 ]; then
+  # No arguments passed, make executable and run semistandard on all JavaScript files in the current directory
+  chmod +x *.js
+  semistandard *.js
+else
+  # Arguments passed, make executable and run semistandard on each argument
+  for arg in "$@"; do
+    chmod +x "$arg"
+    semistandard "$arg"
+  done
+fi
