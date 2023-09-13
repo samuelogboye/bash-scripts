@@ -48,7 +48,7 @@ js
 ```
 This will make all JavaScript files in the current directory executable and run `semistandard` on them
 
-*This saves you 21 characters of typing.*
+*This saves you 21 characters of typing.* 91.3% :smiley:
 
 ### You can run `js` on a specific file
 
@@ -68,7 +68,7 @@ Instead of typing `semistandard --fix` simply type
 js f
 ```
 
-*This saves 14 characters.*
+*This saves 14 characters.* 82.4% :smiley:
 
 
 The error output and behavior remain the same, so you only save more time when working with semistandard-js.
