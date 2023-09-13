@@ -2,6 +2,17 @@
 
 This project aims to save you time when working with `semistandard-js` by simplifying its usage with a Makefile. Instead of typing long commands, you can use a shorter and more convenient approach.
 
+## What is Semistandard
+`semistandard` is a coding style guide and linter for JavaScript. It enforces a set of rules and best practices for writing JavaScript code. Specifically, `semistandard` is a variation of the popular JavaScript Standard Style with a few modifications.
+Read more:
+  - [standardjs.com](https://standardjs.com/rules.html)
+  - [semistandard Github Repo](https://github.com/standard/semistandard)
+  - [Airbnb JavaScript Guide](https://github.com/airbnb/javascript)
+### Installation
+```bash
+sudo npm install semistandard --global
+```
+
 ## Getting Started
 
 To get started, follow these simple steps:
