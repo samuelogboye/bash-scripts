@@ -1,36 +1,56 @@
 # Save more time
 
-clone the repo
+This project aims to save you time when working with `semistandard-js` by simplifying its usage with a Makefile. Instead of typing long commands, you can use a shorter and more convenient approach.
+
+## Getting Started
+
+To get started, follow these simple steps:
+
+Clone the repository
 
 ```bash
 git clone https://github.com/samuelogboye/bash-scripts.git
 ```
 
-cd directly to semistandard-js
+Navigate to the semistandard-js directory:
 
 ```bash
 cd bash-scripts/semistandard-js
 ```
 
-run make
+Run the `make` command
 ```bash
 make
 ```
 
-This will make the file `js` executable and move to /bin at same time
-
-Everything is now ready
-
-instead of typing `semistandard` simply type `js` (save 10 character stroke styping)
-
-instead of typing `semistandard --fix` simply type `js f` (save 14 characters)
+This will make the `js` file executable and move it to the `/bin` directory, allowing you to use it conveniently.
 
 
+## Using the "js" Command
 
-Same error output
-Same evrything
+Now that everything is set up, you can save time and keystrokes when using semistandard-js:
 
-You only save more time
+Instead of typing `semistandard`, simply type:
+
+```bash
+js
+```
+
+This saves you 10 characters of typing.
 
 
-Bug? please report or create an issue
+Instead of typing `semistandard --fix` simply type
+
+```bash
+js f
+```
+
+This saves 14 characters.
+
+
+The error output and behavior remain the same, so you only save more time when working with semistandard-js.
+
+
+## Reporting Issues
+
+If you encounter any bugs or issues, please report them or create an issue
