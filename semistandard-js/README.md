@@ -12,6 +12,7 @@ Read more:
 ```bash
 sudo npm install semistandard --global
 ```
+Node 12.20.0 or greater is required for `semistandard` to run
 
 ## Getting Started
 
