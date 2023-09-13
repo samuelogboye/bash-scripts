@@ -39,6 +39,17 @@ This will make all JavaScript files in the current directory executable and run 
 
 *This saves you 21 characters of typing.*
 
+### You can run `js` on a specific file
+
+```bash
+js file1
+```
+
+### You can run `js` on multiple files
+
+```bash
+js file1 file2 file3
+```
 
 Instead of typing `semistandard --fix` simply type
 
