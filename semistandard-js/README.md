@@ -18,6 +18,11 @@ Node 12.20.0 or greater is required for `semistandard` to run
 
 To get started, follow these simple steps:
 
+Navigate to your home directory:
+```bash
+cd
+```
+
 Clone the repository
 
 ```bash
