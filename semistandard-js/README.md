@@ -30,13 +30,14 @@ This will make the `js` file executable and move it to the `/bin` directory, all
 
 Now that everything is set up, you can save time and keystrokes when using semistandard-js:
 
-Instead of typing `semistandard`, simply type:
+Instead of typing `chmod +x file` and `semistandard`, simply type:
 
 ```bash
 js
 ```
+This will make all JavaScript files in the current directory executable and run `semistandard` on them
 
-This saves you 10 characters of typing.
+*This saves you 21 characters of typing.*
 
 
 Instead of typing `semistandard --fix` simply type
@@ -45,7 +46,7 @@ Instead of typing `semistandard --fix` simply type
 js f
 ```
 
-This saves 14 characters.
+*This saves 14 characters.*
 
 
 The error output and behavior remain the same, so you only save more time when working with semistandard-js.
